@@ -11,9 +11,23 @@ print("123" + "345")
 print("123" + "345")
 
 # Float 
-3.1459
+#3.1459
 
 # Boolean
-True or False
+# True or False
+
+# num_char = len(input("What is your name? "))
+# new_num_char = str(num_char)
 
 
+# print("Your name is " + new_num_char + " characters long.")
+
+
+a = str(123)
+print(type(a))
+
+a = float(123)
+print(type(a))
+
+# print(70 + float("100.5"))
+print(str(70) + str(100))
