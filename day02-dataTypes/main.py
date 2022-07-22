@@ -31,3 +31,10 @@ print(type(a))
 
 # print(70 + float("100.5"))
 print(str(70) + str(100))
+
+
+score = 0
+height = 1.0
+isWinning = True
+#f-string
+print(f"your score is {score}, your height is {height}, and you are winning is {isWinning}")
