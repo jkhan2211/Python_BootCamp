@@ -23,3 +23,5 @@ months_left = total_months - age_in_months
 
 print(f"you have {days_left} days, {weeks_left} weeks, and {months_left} months left")
 
+name = input("what is your name?")
+print("hello" + name)
