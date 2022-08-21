@@ -6,10 +6,6 @@ def paint_calc(height, width, cover):
     print(f"You'll need to purchase {num_per_can} cans to paint {area} sq ft of paint.")
 
 
-
-
-
-
 #Write your code above this line 👆
 # Define a function called paint_calc() so that the code below works.   
 
