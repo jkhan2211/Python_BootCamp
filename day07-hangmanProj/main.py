@@ -1,64 +1,11 @@
 #Step 4
 
 import random
+from hangman_words import word_list
+from hangman_art import stages
+from hangman_art import logo
 
-stages = ['''
-  +---+
-  |   |
-  O   |
- /|\  |
- / \  |
-      |
-=========
-''', '''
-  +---+
-  |   |
-  O   |
- /|\  |
- /    |
-      |
-=========
-''', '''
-  +---+
-  |   |
-  O   |
- /|\  |
-      |
-      |
-=========
-''', '''
-  +---+
-  |   |
-  O   |
- /|   |
-      |
-      |
-=========''', '''
-  +---+
-  |   |
-  O   |
-  |   |
-      |
-      |
-=========
-''', '''
-  +---+
-  |   |
-  O   |
-      |
-      |
-      |
-=========
-''', '''
-  +---+
-  |   |
-      |
-      |
-      |
-      |
-=========
-''']
-word_list = ["aardvark", "baboon", "camel"]
+print(logo)
 chosen_word = random.choice(word_list)
 word_length = len(chosen_word)
 
@@ -66,7 +13,7 @@ word_length = len(chosen_word)
 #Set 'lives' to equal 6.
 lives = 6
 #Testing code
-print(f'Pssst, the solution is {chosen_word}.')
+# print(f'Pssst, the solution is {chosen_word}.')
 
 
 #Create blanks
