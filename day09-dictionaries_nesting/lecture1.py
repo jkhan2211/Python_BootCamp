@@ -5,23 +5,23 @@ programming_dictionary = {
 }
 
 #Retrieving items from dictionary
-#print(programming_dictionary["Bug"])
+print(programming_dictionary["Bug"])
 
 #Adding new item to dictionary 
 programming_dictionary["Loop"] = "Action of doing something over and over again it can go infinity"
-#print(programming_dictionary)
+print(programming_dictionary)
 
 #Create an empty dictionary
 empty_dictionary = {}
 
 
 #Wipe an existing dictionary
-#programming_dictionary = {}
-#print(programming_dictionary)
+programming_dictionary = {}
+print(programming_dictionary)
 
 #Edit in a dictionary
-#programming_dictionary["Bug"] = "A moth in your computer"
-#print(programming_dictionary)
+programming_dictionary["Bug"] = "A moth in your computer"
+print(programming_dictionary)
 
 
 #Loop through a dictionary 
