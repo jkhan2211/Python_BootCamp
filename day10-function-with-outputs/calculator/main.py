@@ -30,7 +30,7 @@ operations = {
 }
 
 def calculator():
-    num1 = int(input("What is the first number: "))
+    num1 = float(input("What is the first number: "))
 
     for symbol in operations:
         print(symbol)
@@ -40,7 +40,7 @@ def calculator():
     while should_continue:
 
         operation_symbol = input("Pick an operation:  ")
-        num2 = int(input("What is the next number: "))
+        num2 = float(input("What is the next number: "))
         calculation_function = operations[operation_symbol]
         answer = calculation_function(num1, num2)
 
@@ -50,6 +50,9 @@ def calculator():
             num1 = answer
         else:
             should_continue = False
-            calculator()
+            if input(f"Do you want to restart calculator 'y' or 'n': ") == "y":
+                calculator()
+            else:
+                break
 
 calculator()
