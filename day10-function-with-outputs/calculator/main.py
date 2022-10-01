@@ -53,6 +53,7 @@ def calculator():
             if input(f"Do you want to restart calculator 'y' or 'n': ") == "y":
                 calculator()
             else:
+                print("exit....")
                 break
 
 calculator()
