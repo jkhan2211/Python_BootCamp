@@ -1,0 +1,16 @@
+1. Makes 3 Hot Flavours
+-esspresso-latte-cappucino
+
+2. coin operated
+penny - dime - nickle - quarter
+
+Program Requirement
+
+1. print report
+2. Check resource is sufficient 
+3. Process coins 
+4. Check transaction sucessfull 
+5. Make coffee
+
+
+
