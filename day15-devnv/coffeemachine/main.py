@@ -42,7 +42,9 @@ user_prompt = input("What would you like today? (espresso/latte/cappuccino): ")
 
 if user_prompt == 'report':
     report()
-elif user_prompt = 'off':
+elif user_prompt == 'off':
     clear()
-else:
+elif user_prompt == 'espresso' or user_prompt == 'latte' or  user_prompt == 'cappuccino':
     coffee_machine()
+else:
+    print("Error!")
