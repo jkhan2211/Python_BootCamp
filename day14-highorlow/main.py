@@ -52,7 +52,7 @@ def play():
             person2 = assign()
             
             # If we are not in first iteration, and user 
-            # input correct asnwer to previous iteration,
+            # input correct answer to previous iteration,
             # in that case, make accoun1 become accoun2
             # and randomly assign account2 some other account
             if score > 0:
@@ -65,7 +65,7 @@ def play():
             # display account1 name and description
             print(f"Name: {person1['name']}, Desc: {person1['description']}")
             print("-------VS--------------VS--------------VS--------------VS")
-            print("--------------VS--------------VS--------------VS-------")
+            print("--------------VS--------------VS--------------VS---------")
             # display account2 name and description
             print(f"Name: {person2['name']}, Desc: {person2['description']}")
 
