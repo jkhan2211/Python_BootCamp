@@ -1,0 +1,46 @@
+Why do we need OOP?
+- Reusability
+
+OOP
+- imagine running restaurant 
+- reception
+- order: waiter 
+- chef
+- cleaner
+
+One man restaurant (limitation)
+- complex and hard to manage
+- hire bunch of people, waiter, chef, cleaner
+- become manager
+
+How to Use OOP
+
+Model: waiter
+has:
+is_holding_plate = True
+tables_responsible = [4, 5, 6]
+-attribute
+
+does:
+def take_order(table, order): #takes order to chef
+def take_payment(amount) #add money to restaurant
+-methods
+
+- Generate model of same type, generate multiple version of same object
+- Generate as many as you want from same blue print
+
+Class
+waiter
+
+object
+Waiter1: Henry
+Waiter2: Sara
+
+Constructing Object and Accessing their Attribute and Methods
+Example1:
+Class(blueprint)
+Object
+
+car = CarBlueprint()
+object  Class
+
