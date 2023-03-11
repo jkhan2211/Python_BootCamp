@@ -12,3 +12,25 @@ for i in temp_list:
     num_temp += 1
 
 avg_temp = sum_temp/num_temp
+
+
+
+# Code to create a list of word lengths
+
+original_str = "The quick brown fox jumped over the lazy rabbit"
+word_list = []
+temp_list = original_str.split(" ")
+num_words = len(original_str)
+
+for i in temp_list:
+    word_list.append((len(i)))
+print(word_list)
+
+
+
+# Create an empty string assign to variable lett 
+
+lett = ""
+for i in range(7):
+    lett += 'b'
+print(lett, end='')
